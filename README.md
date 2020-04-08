@@ -87,7 +87,7 @@ Los siguientes archivos recogen todos los scripts utilizados:
 
 ## Software utilizado
 
-* [Python 3 (v?? or later should work)](https://www.python.org)
+* [Python 3](https://www.python.org)
 * [annotatr](https://www.bioconductor.org/packages/release/bioc/html/annotatr.html) 
 * [HOMER Motif Analysis](http://homer.ucsd.edu/homer/motif/)
 * [MEME-Suite](http://meme-suite.org)
