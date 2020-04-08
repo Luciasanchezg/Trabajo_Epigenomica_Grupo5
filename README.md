@@ -50,8 +50,9 @@ En este apartado se utilizaron los siguientes scripts:
 **3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
 
 
- ![alt text](https://github.com/SGarciaCobos/Trabajo_Epigenomica_Grupo5/tree/master/imagenes/script_flow.png)
-
+<p align="center">
+   <img width="860" src="imagenes/script_flow.png" alt="script_flow"/>
+ </p>
 
 ### Apartado 4
 
