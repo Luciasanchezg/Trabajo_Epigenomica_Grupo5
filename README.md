@@ -36,8 +36,13 @@ En este apartado se utilizaron los siguientes scripts:
 Los scripts utilizados fueron:
 
 **2_1_Anotaciones_E9.R**: este script permite anotar los segmentos con Estado 9 previamente seleccionados tras el filtrado (diferencia de probabilidad posterior con el segundo estado más probable > 0.32). Utiliza el paquete en R annotatr (https://www.bioconductor.org/packages/release/bioc/html/annotatr.html). Las anotaciones realizadas corresponden a *'hg19_cpgs', 'hg19_basicgenes', 'hg19_genes_intergenic', 'hg19_genes_intronexonboundaries', 'hg19_genes_cds'*.  
-**2_2_Anotaciones_todos_estados.R**: este script anota los segmentos de 200pb de todos los cromosomas
-
+**2_2_Anotaciones_todos_estados.R**: este script utilizando el mismo paquete en R (annotatr), anota los segmentos de 200pb de todos los cromosomas.  
+**2_3_Calculo_porcentajes.sh**: este script nos permite calcular el porcentaje de segmentos que solapan con *protein-coding genes*.  
+**2_4_Obtencion_frecuencias_segmentos.sh**: este script permite calcular la frecuencia de las diferentes anotaciones (annotatr) en los segmentos con estado 9 solapantes con *protein-coding genes*.   
+**2_5_Obtencion_frecuencias_segmentos_todos_estados.sh**: este script permite calcular la frecuencia de las diferentes anotaciones (annotatr) en los segmentos para todos los estados solapantes con *protein-coding genes*.
+**2_6_Grafica_anotaciones_segmentos.ipynb**: este script permite la realización de un histograma para visualizar la frecuencia de cada una de las anotaciones asociadas a los segmentos de interés (segmentos de 200 pares de bases, con estado E9 y filtrados)
+**2_7_Grafica_anotaciones_segmentos_todos_estados.ipynb**: este script permite la realización de un histograma para visualizar la frecuencia de cada una de las anotaciones asociadas al genoma entero.  
+**2_8_Grafica_CDS_cromosoma.ipynb**: este script permite calcular la frecuencia de segmentos en estado E9 y filtrados solapantes con *protein-coding genes* (CDS).  
 
 ### Apartado 3
 
@@ -49,18 +54,11 @@ En este apartado se utilizaron los siguientes scripts:
 **3_2_filtro_y_solapamiento_todos.sh**: este script procesa los archivos con segmentos para todos los estados en los que la diferencia entre el estado mayoritario y el siguiente más probable es > 0.32.  
 **3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
 
-
-<p align="center">
-   <img width="860" src="imagenes/script_flow.png" alt="script_flow"/>
- </p>
-
 ### Apartado 4
 
 *Visualizar (y mostrar) una región del genoma en el UCSC browser donde se vean al menos uno de vuestros segmentos (subid el track generado por ChromHMM) y la DNase I en todos los tipos celulares de ENCODE de sangre.*
 
-
-
-
+*No hay scripts para el análisis realizado en este apartado pues se basó en la visualización en UCSC Genome Browser.  
 
 ### Apartado 5
 
