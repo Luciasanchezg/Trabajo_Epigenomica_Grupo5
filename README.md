@@ -84,3 +84,11 @@ Los siguientes archivos recogen todos los scripts utilizados:
 
 **7_1_Relacion_genes_longitud_CTCF.ipynb**: La primera parte de este script muestra la correlación existente entre el número de segmentos con estado 9 y el número de genes presentes en cada cromosoma. En una segunda parte se analiza la correlación existente entre el número de segmentos con estado 9 y la longitud de los cromosomas.  
 
+
+## Software utilizado
+
+* [Python 3 (v?? or later should work)](https://www.python.org)
+* [annotatr](https://www.bioconductor.org/packages/release/bioc/html/annotatr.html) 
+* [HOMER Motif Analysis](http://homer.ucsd.edu/homer/motif/)
+* [MEME-Suite](http://meme-suite.org)
+
