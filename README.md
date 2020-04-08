@@ -80,7 +80,7 @@ Los siguientes archivos recogen todos los scripts utilizados:
 
 ### Apartado 7 (*adicional*)
 
-*Estudiar la correlación entre el número de segmentos con estado 9 y el número de protein-coding genes. 
+*Estudiar la correlación entre el número de segmentos con estado 9 y el número de protein-coding genes.* 
 
 **7_1_Relacion_genes_longitud_CTCF.ipynb**: La primera parte de este script muestra la correlación existente entre el número de segmentos con estado 9 y el número de genes presentes en cada cromosoma. En una segunda parte se analiza la correlación existente entre el número de segmentos con estado 9 y la longitud de los cromosomas.  
 
