@@ -28,9 +28,7 @@ En este apartado se utilizaron los siguientes scripts:
 
 **1_6_Interseccion_replicas.sh**: este script realiza la intersección entre los archivos (Estado 9 y filtrados según diferencia de probabilidad con el segundo estado > 0.32) de los monocitos 1 y 2 para cada cromosoma.  
 
-<p align="center">
-   <img width="860" src="imagenes/script_flow.png" alt="script_flow"/>
- </p>
+
 
 ### Apartado 2
 
@@ -56,6 +54,10 @@ En este apartado se utilizaron los siguientes scripts:
 **3_1_solapamiento_E9.sh**: este script realiza la intersección entre el archivo de segmentos con estado 9 y filtrados (diferencia de probabilidad con el segundo estado más probable > 0.32) y el archivo con segmentos de picos de DNasa I. Además calculamos a cuántos nucleotidos corresponden esos segmentos.  
 **3_2_filtro_y_solapamiento_todos.sh**: este script procesa los archivos con segmentos para todos los estados en los que la diferencia entre el estado mayoritario y el siguiente más probable es > 0.32.  
 **3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
+
+<p align="center">
+   <img width="860" src="imagenes/script_flow.png" alt="script_flow"/>
+ </p>
 
 ### Apartado 4
 
