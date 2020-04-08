@@ -35,7 +35,7 @@ En este apartado se utilizaron los siguientes scripts:
 
 Los scripts utilizados fueron:
 
-**2_1_Anotaciones_E9.R**: este script permite anotar los segmentos con Estado 9 previamente seleccionados tras el filtrado (diferencia de probabilidad posterior con el segundo estado más probable > 0.32). Utiliza el paquete en R annotatr (https://www.bioconductor.org/packages/release/bioc/html/annotatr.html). Las anotaciones realizadas corresponden a *'hg19_cpgs', 'hg19_basicgenes', 'hg19_genes_intergenic', 'hg19_genes_intronexonboundaries', 'hg19_genes_cds'*.  
+**2_1_Anotaciones_E9.R**: este script permite anotar los segmentos con Estado 9 previamente seleccionados tras el filtrado (diferencia de probabilidad posterior con el segundo estado más probable > 0.32). Utiliza el paquete en R **annotatr**. Las anotaciones realizadas corresponden a *'hg19_cpgs', 'hg19_basicgenes', 'hg19_genes_intergenic', 'hg19_genes_intronexonboundaries', 'hg19_genes_cds'*.  
 **2_2_Anotaciones_todos_estados.R**: este script utilizando el mismo paquete en R (annotatr), anota los segmentos de 200pb de todos los cromosomas.  
 **2_3_Calculo_porcentajes.sh**: este script nos permite calcular el porcentaje de segmentos que solapan con *protein-coding genes*.  
 **2_4_Obtencion_frecuencias_segmentos.sh**: este script permite calcular la frecuencia de las diferentes anotaciones (annotatr) en los segmentos con estado 9 solapantes con *protein-coding genes*.   
@@ -76,7 +76,7 @@ En este apartado se utilizaron los siguientes scripts:
 Los siguientes archivos recogen todos los scripts utilizados:
 
 **6_1_metilacionADN.sh**: este script permite calcular el porcentaje (en segmentos y pb) de solapamiento de segmentos con estado 9 (en los dos monocitos) y filtrados (diferencia de probabilidad posterior con el segundo estado mas probable >0.32) con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Además, permite realizar la intersección de segmentos con estado 9 y filtrados, previamente solapados con picos de DNasa I (script *3_1_solapamiento_E9.sh*), con regiones hiper- e hipo-metiladas de monocitos del donante C001UY.  
-**6_2_anotacion_metilacionADN_CpG.R**: este script permite la ANOTACIÓN de islas CpG (regiones con alta concentración de citosinas y guaninas) y estructuras genéticas asociadas (*'inter-CGI',  'CpG shores', 'CpG shelves'*) en segmentos con estado 9 (previamente filtrados y coincidentes en los dos monocitos) que solapan con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Utiliza el paquete en R annotatr (https://www.bioconductor.org/packages/release/bioc/html/annotatr.html).  
+**6_2_anotacion_metilacionADN_CpG.R**: este script permite la ANOTACIÓN de islas CpG (regiones con alta concentración de citosinas y guaninas) y estructuras genéticas asociadas (*'inter-CGI',  'CpG shores', 'CpG shelves'*) en segmentos con estado 9 (previamente filtrados y coincidentes en los dos monocitos) que solapan con regiones hiper- e hipo-metiladas de monocitos del donante C001UY. Utiliza el paquete en R **annotatr**.  
 
 ### Apartado 7 (*adicional*)
 
