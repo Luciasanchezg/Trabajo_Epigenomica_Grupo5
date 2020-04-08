@@ -58,7 +58,7 @@ En este apartado se utilizaron los siguientes scripts:
 **3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
 
 <p align="center">
-   <img width="860" src="imagenes/script_flow.png" alt="script_flow"/>
+   <img width="860" src="imagenes/scriptflow2.png" alt="scriptflow2"/>
  </p>
 
 ### Apartado 4
