@@ -60,7 +60,7 @@ En este apartado se utilizaron los siguientes scripts:
 
 *No hay scripts para el análisis realizado en este apartado pues se basó en la visualización en UCSC Genome Browser.*  
 
-### Apartado 5
+### Apartado 5 (opcional I)
 
 *Búsqueda de motivos enriquecidos.*
 
@@ -69,7 +69,7 @@ En este apartado se utilizaron los siguientes scripts:
 **5_1_from_bed_to_fasta.sh**: este script permite la conversión de los archivos .bed a .fasta para posteriormente llevar a cabo la búsqueda de motivos con el programa MEME (MEME-ChIP).  
 **5_2_Homer.sh.sh**: este script realiza la búsqueda de motivos en los segmentos incluidos en un archivo .bed mediante el programa findMotifsGenome.pl de Homer.
 
-### Apartado 6
+### Apartado 6 (opcional II)
 
 *Calcular el % de solapamiento con regiones hyper- (Metilación > 0.75) o hypo-metiladas (Metilación < 0.25) en monocitos disponibles en el DCC portal de BLUEPRINT. (http://dcc.blueprint-epigenome.eu/#/home) Ficheros BED pertenecientes al donante C001UY.*
 
