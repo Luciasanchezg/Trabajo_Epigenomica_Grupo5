@@ -28,7 +28,9 @@ En este apartado se utilizaron los siguientes scripts:
 
 **1_6_Interseccion_replicas.sh**: este script realiza la intersección entre los archivos (Estado 9 y filtrados según diferencia de probabilidad con el segundo estado > 0.32) de los monocitos 1 y 2 para cada cromosoma.  
 
-
+<p align="center">
+   <img width="860" src="imagenes/scriptflow1.jpg" alt="scriptflow1"/>
+ </p>
 
 ### Apartado 2
 
