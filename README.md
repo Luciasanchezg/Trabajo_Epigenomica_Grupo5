@@ -89,11 +89,15 @@ Scripts:
 
 *Estudiar la correlación entre el número de segmentos con estado 9 y el número de protein-coding genes.* 
 
-Scripts:
+Script:
 
 **7_1_Relacion_genes_longitud_CTCF.ipynb**: La primera parte de este script muestra la correlación existente entre el número de segmentos con estado 9 y el número de genes presentes en cada cromosoma. En una segunda parte se analiza la correlación existente entre el número de segmentos con estado 9 y la longitud de los cromosomas.  
 
 ### Apartado 8 (*adicional*)
+
+*Detección de procesos biológicos asociados a la unión de CTCF.*
+
+Script:
 
 
 
@@ -104,4 +108,5 @@ Scripts:
 * [annotatr](https://www.bioconductor.org/packages/release/bioc/html/annotatr.html) 
 * [HOMER Motif Analysis](http://homer.ucsd.edu/homer/motif/)
 * [MEME-Suite](http://meme-suite.org)
+* [PANTHER](http://pantherdb.org/panther/goSlim.jsp)
 
