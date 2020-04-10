@@ -95,7 +95,7 @@ Scripts:
 
 Script:
 
-**7_1_Relacion_genes_longitud_CTCF.ipynb**: La primera parte de este script muestra la correlación existente entre el número de segmentos con estado 9 y el número de genes presentes en cada cromosoma. En una segunda parte se analiza la correlación existente entre el número de segmentos con estado 9 y la longitud de los cromosomas.  
+**7_Relacion_genes_longitud_CTCF.ipynb**: La primera parte de este script muestra la correlación existente entre el número de segmentos con estado 9 y el número de genes presentes en cada cromosoma. En una segunda parte se analiza la correlación existente entre el número de segmentos con estado 9 y la longitud de los cromosomas.  
 
 ### Apartado 8 (*adicional*)
 
@@ -103,6 +103,7 @@ Script:
 
 Script:
 
+**8_procesos_biologicos.R**: este script permite el análisis y visualización de perfiles funcionales de coordinadas genómicas, genes y grupos de genes. 
 
 
 ## Software utilizado
@@ -113,4 +114,5 @@ Script:
 * [HOMER Motif Analysis](http://homer.ucsd.edu/homer/motif/)
 * [MEME-Suite](http://meme-suite.org)
 * [PANTHER](http://pantherdb.org/panther/goSlim.jsp)
+* [clusterProfiler](https://github.com/YuLab-SMU/clusterProfiler)
 
