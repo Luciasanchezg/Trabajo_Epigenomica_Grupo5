@@ -115,4 +115,5 @@ Script:
 * [MEME-Suite](http://meme-suite.org)
 * [PANTHER](http://pantherdb.org/panther/goSlim.jsp)
 * [clusterProfiler](https://github.com/YuLab-SMU/clusterProfiler)
+* [ChIPseeker](http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
 
