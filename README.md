@@ -28,6 +28,8 @@ Scripts:
 
 **1_6_Interseccion_replicas.sh**: este script realiza la intersección entre los archivos (Estado 9 y filtrados según diferencia de probabilidad con el segundo estado > 0.32) de los monocitos 1 y 2 para cada cromosoma.  
 
+> **Esquema del procedimiento seguido para filtrar los segmentos.** Los números que acompañan a las flechas hacen referencia a los scripts utilizados en cada caso. 1) Generación de un archivo con los números de línea de aquellos segmentos asignados como E9 utilizado a continuación para indexar el archivo “Posterior” generado por ChromHMM y seleccionar solo dichos segmentos (1_1_Filtrar_segmentos_E9.sh). 2) Generación de la gráfica de distribución de diferencia de probabilidades a partir de la cual se estableció el threshold de 0.32 (1_2_Generar_grafica_densidad.ipynb). 3) Generación de un archivo con los números de líneas de aquellos segmentos previamente seleccionados que superasen el threshold (1_3_Filtrar_032_archivos_indices.ipynb). 4) Indexación del archivo que contenía los números de líneas de los segmentos E9 con el nuevo archivo generado (1_4_Generar_archivos_filtrados_E9_032.sh). 5) Generación de archivos en formato “bed” (1_5_Generar_ficheros_bed.sh). 6) Intersección de los archivos generados para cada monocito y generación de un nuevo fichero con los segmentos comunes a ambos para cada cromosoma y un archivo común con los segmentos de todos los cromosomas (1_6_Interseccion_replicas.sh).
+
 <p align="center">
    <img width="860" src="imagenes/scriptflow1.png" alt="scriptflow1"/>
  </p>
@@ -56,6 +58,8 @@ Scripts:
 **3_1_solapamiento_E9.sh**: este script realiza la intersección entre el archivo de segmentos con estado 9 y filtrados (diferencia de probabilidad con el segundo estado más probable > 0.32) y el archivo con segmentos de picos de DNasa I. Además calculamos a cuántos nucleotidos corresponden esos segmentos.  
 **3_2_filtro_y_solapamiento_todos.sh**: este script procesa los archivos con segmentos para todos los estados en los que la diferencia entre el estado mayoritario y el siguiente más probable es > 0.32.  
 **3_3_compare.py**: este script ordena los valores de cada línea en un archivo dado.  
+
+> **Esquema del procedimiento seguido para calcular los porcentajes de solapamiento.** Calculamos tanto la proporción de pares de bases presentes en segmentos en estado 9 solapantes con segmentos de picos de DNase-seq como el dato complementario (porcentaje de picos de DNase-seq solapantes con regiones E9). Primero obtenemos un .bed a partir del archivo NarrowPeaks. No fue necesario el filtrado de segmentos porque todos tenían un -log10(p-value)>=1.30. A continuación usamos Bedtools intersect y obtenemos la intersección de segmentos E9 y picos de DNase-seq. Finalmente obtenemos la longitud en pb de todos los segmentos de E9 y de los segmentos de E9 que coinciden con picos de DNase y calculamos el porcentaje de pb de regiones coincidentes. Un procedimiento similar al utilizado en el primer apartado de este trabajo se usó para obtener todos los estados asignados con seguridad (es decir, que pasan los dos filtros pero sin seleccionar solo el estado 9). A partir de este archivo obtuvimos el porcentaje de solapamiento general para comparar con los mismos pasos
 
 <p align="center">
    <img width="860" src="imagenes/scriptflow2.png" alt="scriptflow2"/>
