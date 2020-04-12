@@ -61,7 +61,9 @@ Scripts:
 
 > **Esquema del procedimiento seguido para calcular los porcentajes de solapamiento.** Calculamos tanto la proporción de pares de bases presentes en segmentos en estado 9 solapantes con segmentos de picos de DNase-seq como el dato complementario (porcentaje de picos de DNase-seq solapantes con regiones E9). Primero obtenemos un .bed a partir del archivo NarrowPeaks. No fue necesario el filtrado de segmentos porque todos tenían un -log10(p-value)>=1.30. A continuación usamos Bedtools intersect y obtenemos la intersección de segmentos E9 y picos de DNase-seq. Finalmente obtenemos la longitud en pb de todos los segmentos de E9 y de los segmentos de E9 que coinciden con picos de DNase y calculamos el porcentaje de pb de regiones coincidentes. Un procedimiento similar al utilizado en el primer apartado de este trabajo se usó para obtener todos los estados asignados con seguridad (es decir, que pasan los dos filtros pero sin seleccionar solo el estado 9). A partir de este archivo obtuvimos el porcentaje de solapamiento general para comparar con los mismos pasos
 
-
+<p align="center">
+   <img width="860" src="imagenes/scriptflow2.png" alt="scriptflow2"/>
+ </p>
 
 ### Apartado 4
 
