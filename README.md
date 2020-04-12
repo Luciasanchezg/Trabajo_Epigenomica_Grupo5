@@ -69,7 +69,7 @@ Scripts:
 
 *Visualizar (y mostrar) una región del genoma en el UCSC browser donde se vean al menos uno de vuestros segmentos (subid el track generado por ChromHMM) y la DNase I en todos los tipos celulares de ENCODE de sangre.*
 
-*No hay scripts para el análisis realizado en este apartado pues se basó en la visualización en UCSC Genome Browser.*  
+No hay scripts para el análisis realizado en este apartado pues se basó en la visualización en UCSC Genome Browser. 
 
 ### Apartado 5 (opcional I)
 
