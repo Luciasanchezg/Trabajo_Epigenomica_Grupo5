@@ -113,7 +113,6 @@ Script:
 * [annotatr](https://www.bioconductor.org/packages/release/bioc/html/annotatr.html) 
 * [HOMER Motif Analysis](http://homer.ucsd.edu/homer/motif/)
 * [MEME-Suite](http://meme-suite.org)
-* [PANTHER](http://pantherdb.org/panther/goSlim.jsp)
 * [clusterProfiler](https://github.com/YuLab-SMU/clusterProfiler)
 * [ChIPseeker](http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
 
