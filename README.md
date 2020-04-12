@@ -114,5 +114,6 @@ Script:
 * [HOMER Motif Analysis](http://homer.ucsd.edu/homer/motif/)
 * [MEME-Suite](http://meme-suite.org)
 * [clusterProfiler](https://github.com/YuLab-SMU/clusterProfiler)
-* [ChIPseeker](http://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
+* [AnnotationDbi](https://bioconductor.org/packages/release/bioc/html/AnnotationDbi.html)
+* [org.Hs.eg.db](https://bioconductor.org/packages/release/data/annotation/html/org.Hs.eg.db.html)
 
